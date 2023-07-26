@@ -1,0 +1,67 @@
+body {
+  background-color: blanchedalmond;
+}
+.container {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+}
+.card {
+  background-color: rgba(255, 240, 191, 0.605);
+  display: flex;
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 80px;
+  flex-wrap: wrap;
+}
+
+.img {
+  object-fit: cover;
+  display: flex;
+  width: 100%;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+.card button {
+  background-color: rgb(251, 217, 106);
+  border-radius: 20px;
+  border: none;
+  color: rgb(167, 130, 9);
+}
+.card h3,
+p,
+button,
+span {
+  color: rgb(118, 60, 29);
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.card button {
+  width: 200px;
+  padding: 15px;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  order: 4;
+}
+h3,
+span {
+  font-size: x-large;
+}
+p {
+  font-size: large;
+  order: 2;
+}
+span {
+  line-height: 0px;
+  order: 3;
+}
+h3 {
+  flex-grow: 3;
+}
