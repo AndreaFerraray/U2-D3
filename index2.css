@@ -1,18 +1,35 @@
+.container {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(252, 247, 230);
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 button {
   background-color: rgb(251, 217, 106);
-  border-radius: 20px;
+  border-radius: 40px;
   border: none;
   color: rgb(167, 130, 9);
   width: 150px;
   height: 50px;
+  color: rgb(118, 60, 29);
+  font-size: medium;
 }
 .logo {
-  width: 60%;
+  height: 90%;
 }
 .container {
   display: flex;
 }
 .button {
-  height: 70px;
-  width: 280px;
+  height: 80px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  font-size: x-large;
+  align-items: center;
+  color: rgb(118, 60, 29);
 }
